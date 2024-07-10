@@ -2,10 +2,10 @@
 
 This repository contains a dynamic Power BI sales dashboard designed to provide comprehensive insights into sales data. The dashboard leverages interactive visualizations and drill-through capabilities to enable users to explore and analyze data in depth. It aims to present all necessary information clearly and concisely, facilitating data-driven decision-making.
 
-  
+## Dashboard
+
 ![Power BI Dashboard](https://github.com/boga-venu/Sales-Dashboard-in-Power-BI/assets/174999641/20308c7d-329c-49da-8486-456e504b8cbe)
 
-![Drill Through](https://github.com/boga-venu/Sales-Dashboard-in-Power-BI/assets/174999641/db0c5bb4-bad4-4e20-b76e-c0821f27b9ac)
 
 ## Objective
 
@@ -45,15 +45,110 @@ The main objective of this dashboard is to offer a dynamic and interactive platf
 
   ![Drill through option](https://github.com/boga-venu/Sales-Dashboard-in-Power-BI/assets/174999641/abede77e-3563-48e7-84b7-122146a26472)
 
-- when we click on it it shows "Category Info". if we click on it, it takes to the `Category Info` page.
+- when we click on it, it shows "Category Info". if we click on it, it takes to the `Category Info` page.
 - the screenshots provided below are the Drill through pages for the categories `Clothing` and `Electronics` Respectively
 
-  ![Drill Through Clothing](https://github.com/boga-venu/Sales-Dashboard-in-Power-BI/assets/174999641/d4f28ece-a978-43ab-af9a-50fa7e002f64)
+  ![Drill Through Clothing](https://github.com/boga-venu/Sales-Dashboard-in-Power-BI/assets/174999641/bb439ea0-e281-47e0-a984-023e0e9b762f)
 
-  ![Drill Through Electronics](https://github.com/boga-venu/Sales-Dashboard-in-Power-BI/assets/174999641/9d298618-16df-415e-b2c5-3d7f4b46acda)
+  ![Drill Through Electronics](https://github.com/boga-venu/Sales-Dashboard-in-Power-BI/assets/174999641/e03ca675-db75-448e-a002-e958cd78738a)
 
 - This page will provide detailed information regarding the category which help in furthur analysis and gain usable insites
 
+## Insights
+
+### Overall Insites from Dashboard
+
+1. Key Metrics Displayed:
+
+    -  Total Revenue: 80.57K
+    -  Total Sales: 518
+    -  Most Valuable Category: Electronics
+    -  Category Needing Attention: Beauty Products
+
+2. Sales vs Revenue by Category:
+
+   - Top Performing Categories:
+       - Electronics: 35K revenue from around 40 units sold.
+       - Home Appliances: 19K revenue.
+       - Sports: 14K revenue.
+
+3. Sales by Month:
+
+   - Peak sales months are January and March.
+   - There is a decline in sales from May onwards.
+
+4. Sales by Region:
+
+   - Asia: Highest sales and revenue (233 sales, 36.84K revenue).
+   - North America and Europe also perform well but lag behind Asia.
+
+5. Payment Methods:
+
+   - Majority of transactions are done via Debit Card (63.51%).
+   - Credit Card and PayPal make up the rest.
+
+6. Average Unit Price:
+
+   - Highest: Electronics (692)
+   - Lowest: Books (16)
+  
+### Categorical Insights
+
+1. Electronics:
+
+    - Highest revenue generator
+    - Relatively low unit sales compared to revenue, indicating high-value items
+    - Highest average unit price ($692)
+    - Popular products: Apple watch, Cannon Camera, Macbook Pro
+    - Most sales occur in North America
+
+2. Home Appliances:
+
+    - Second-highest revenue generator
+    - Medium to high-value items
+    - Average unit price of $320
+    - Popular products: LG TV, Blueair classic, Roomba
+    - Steady sales, with possible increase in summer months
+    - Most sales occur in Europe
+
+3. Sports:
+
+    - Third in revenue
+    - High unit sales, indicating popularity and accessibility
+    - Standout product: Peloton Bike (high-value item)
+    - Moderate sales, possible increase in Spring months
+    - Most sales occur in Asia
+
+4. Clothing:
+
+    - Highest unit sales but lower revenue
+    - Low average unit price ($68)
+    - Popular products: Nike Air Force, North face Jacket
+    - Sales appear consistent, with potential seasonal variations
+    - Most sales occur in Asia
+
+5. Beauty Products:
+   
+    - Low revenue and unit sales
+    - Average unit price of $62
+    - Popular items: Dyson Hair dryer, Cera Ve CLeanser
+    - Moderate but consistent sales throughout the period
+    - Most sales in Europe
+
+6. Books:
+
+    - Lowest revenue category
+    - High unit sales, indicating popularity but low price point
+    - Lowest average unit price ($16)
+    - Consistent sales throughout the period
+    - Most sales in North America
+
+### Key Observations:
+
+  - Electronics and Home Appliances drive the most revenue due to higher price points.
+  - Clothing and Books have the highest sales volume but lower revenue due to lower price points.
+  - There appears to be some regional preference in categories (e.g., Beauty Products in Europe).
+  - Seasonal trends are subtle but present, especially in Clothing and Sports categories.
 
 ## Conclusion
 
