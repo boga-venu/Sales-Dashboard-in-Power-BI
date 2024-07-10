@@ -13,6 +13,7 @@ The main objective of this dashboard is to offer a dynamic and interactive platf
 
 ## Files
 - `Sales Data.csv`: The main data source file
+- `Sales Data.xlsx`: Data source excel file
 - `Sales Dashboard.pbix`: The Power BI file containg the Dashboard
 - `Power BI Dashboard.png`: Screenshot of the Dashboard
 - `Drill Through Electronics.png`: Screenshot of Drill-Through page for Electronics Category
